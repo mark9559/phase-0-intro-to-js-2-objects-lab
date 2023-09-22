@@ -26,18 +26,4 @@ const employee = {
     return employee;
   }
   
-  // Testing the functions
-  const updatedEmployee = updateEmployeeWithKeyAndValue(employee, "name", "Jane Doe");
-  console.log(updatedEmployee);
-  
-  const mutatedEmployee = destructivelyUpdateEmployeeWithKeyAndValue(employee, "streetAddress", "456 Elm Street");
-  console.log(mutatedEmployee);
-  
-  const deletedEmployee = deleteFromEmployeeByKey(employee, "name");
-  console.log(deletedEmployee);
-  
-  const destructivelyDeletedEmployee = destructivelyDeleteFromEmployeeByKey(employee, "streetAddress");
-  console.log(destructivelyDeletedEmployee);
-  
-  console.log(employee); 
   
